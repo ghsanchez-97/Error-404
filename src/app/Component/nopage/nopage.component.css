@@ -1,0 +1,21 @@
+.navgacion ul{
+    text-decoration: none;
+    text-align: end;
+    background-color: black;
+    padding: 30px;
+}
+.navgacion ul li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin: 0 90px 0;
+}
+.navgacion ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navgacion ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
