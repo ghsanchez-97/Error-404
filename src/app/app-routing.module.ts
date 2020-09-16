@@ -5,7 +5,9 @@ import { NopageComponent } from './Component/nopage/nopage.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path:'', 
+    redirectTo:'',
+    pathMatch: 'full',
     component:NopageComponent
   }
 ];
